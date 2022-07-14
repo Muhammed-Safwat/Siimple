@@ -1,3 +1,3 @@
 # Siimple is a bootstrap landing page
 
-Template Name: Siimple Template URL: https://bootstrapmade.com/free-bootstrap-landing-page/ Author: BootstrapMade.com License: https://bootstrapmade.com/license/
+Template Name: Siimple Template URL: https://bootstrapmade.com/free-bootstrap-landing-page/
