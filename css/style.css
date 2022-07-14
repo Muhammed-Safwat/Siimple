@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+    color:#444444;
+}
+.header{
+    background: url(../img/hero-bg.jpg) center center;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    background-size: cover;
+}
+.header:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #0000000a;
+    top: 0;
+}
+.navbar a{
+    font-size: 34px;
+    color: #ffd2b7;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color: #ffa26a;
+}
+.navbar i {
+    font-size: 34px !important;
+    font-weight: 700;
+}
+.nav-item a {
+    font-size:18px;
+} 
+ul.dropdown-menu{
+    background: transparent !important;
+    border: none;
+}
+ul.dropdown-menu a:hover{
+    background: transparent!important ;
+}
+.nav-slide{
+    background: rgba(34, 34, 34, 0.8);
+    transition: 0.1s;
+    transition-timing-function: ease-in;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+
+.hadding{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    line-height: 56px;
+    color: #222;
+}
+.subHadding{
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.btn-close{
+    top: 30px;
+    color: white;
+    position: absolute;
+    background: rgba(34, 34, 34, 0.8);
+    right: 40px;
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+}
+.navbar-toggler{
+    padding: 0 !important;
+    border:none !important;
+    box-shadow:none !important;
+}
+.navbar-toggler:focus{
+    box-shadow:none !important;
+}
+.form{
+    height: fit-content;
+}
+.form input {
+    height: 45px;
+    width:270px;
+    padding: 0 15px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Notify{
+    background-color: #fd680e;
+    max-width: 150px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: none;
+    color: #fff;
+    transition: 0.4 s;
+    -webkit-transition: 0.4 s;
+    -moz-transition: 0.4 s;
+    -ms-transition: 0.4 s;
+    -o-transition: 0.4 s;
+}
+.Notify:hover{
+    background-color:#ff9453;
+}
+.text{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media (max-width:992px){
+    .text{
+        margin-top: 60px
+    }
+}
+@media (max-width:768px){
+    .hadding{
+        font-size:34px;
+    }
+    .subHadding{
+        font-size: 20px;
+        margin-top:5px;
+    }
+    .form input {
+        height: 35px;
+        font-size: 14px;
+        margin-bottom: 10px !important;
+        margin-top:0   !important;;
+    }
+    .Notify{
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+.about{
+    padding:80px 0 ;
+    background: white;
+}
+.about img{
+    max-width: 100%;
+}
+.about .p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color:#444444;
+}
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+.about ul li{
+    display:flex;
+    gap: 10px;
+}
+.about ul li i{
+    font-size: 20px;
+    padding-right: 4px;
+    color: #fd680e;
+    margin-top: 5px;
+}
+.WhyUs{
+    background-color: #fff7f2;
+    padding:80px 0 ;
+}
+.card{
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    height: 100%;
+}
+.card-icon{
+    position:relative;
+}
+.card-icon i{
+    top: -37px;
+    right: calc(50% - 37px );;
+    font-size: 35px;
+    background: #fd680e;
+    padding: 20px;
+    border-radius: 50px;
+    position: absolute;
+    border: 5px solid white;
+    color: white;
+}
+.card-body{
+    padding-top:40px;
+}
+.card:hover .card-icon i {
+    background:white;
+    color:#fd680e;
+}
+.card .card-title  {
+    color:#743e1d;
+    cursor:pointer;
+    font-size: 26px;
+}
+.card .card-title:hover{
+    color:#fd680e;
+}
+.Contact-us{
+    padding:80px 0 ;
+}
+.title-section{
+    padding-bottom:50px
+}
+.title-section .h2{
+    position:relative;
+    font-size: 34px;
+    color:#444444;
+    padding: 0 0 15px;
+}
+.title-section .h2::after{
+    content: '';
+    height: 1px;
+    background-color: #fd680e;
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    right: calc(50% - 40px );
+}
+.Contact-us {
+    background-color: #fff7f2;
+}
+.Contact-us p {
+    margin:0;
+}
+.Contact-us .phone i , .Contact-us .email i , .Contact-us .addrees i {
+    font-size: 38px;
+    color: #fd680e;
+    margin-right: 15px;
+}
+.social i{
+    background: rebeccapurple;
+    color: white;
+    background-color:  #5a2c10;
+    font-size: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+    margin-right: 5px;
+}
+.social i:hover{
+    background-color:#fd680e;
+}
+textarea{
+    width: 100%;
+    outline: 0;
+    border: 1px solid #ced4da;
+}
+input{
+    box-shadow: none !important;
+}
+.Contact-us form{
+    text-align: center;
+}
+.Contact-us button{
+    background: #fd680e;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+}
+@media (max-width:992px){
+    .social{
+        justify-content: center;
+        padding: 50px 0;
+    }
+}
+.faq{
+    padding:80px 0;
+}
+.icon-show{    
+    display: inline-block;
+}
+.icon-hidden{    
+    display:none;
+}
+.footer{
+    background: #2f1708;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 15px;
+}
+.footer a {
+    text-decoration: none;
+    color:#fd680e;
+}
+.faq-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.faq-list  li{
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.faq-list li::after {
+    content: '';
+    width: 100%;
+    height: 1.2px;
+    background-color: #eee;
+    bottom: -1px;
+    position: absolute;
+    right: 0;
+}
+.faq-list  li a{
+display: block;
+    position: relative;
+    font-family: #fd680e;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-right: 25px;
+    cursor: pointer;
+        color: #343a40;
+        text-decoration: none
+}
+.faq-list  li a:hover  , .faq-list  li a:hover i  {
+    color:#fd680e;
+}
+.faq-list li i{
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.faq-list li p {
+    padding: 10px 0 0;
+}

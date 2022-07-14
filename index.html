@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Siimple - Bootstrap Landing Page Template</title>
+</head>
+<body>
+    <header class="header" id="home">
+        <div class="container-md">   
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light" href="index.html">Siimple</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon">
+                        <i class="bx bx-menu text-light"></i>
+                        </span>
+                    </button>
+            <div class="offcanvas nav-slide offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header  ds-flex justify-content-end">
+                <button type="button" class="d-flexalign-items-center  btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class=" fs-1  text-light   bx bx-x"></i></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active " onclick="closeN()" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="closeN()" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="closeN()" href="#why">Why Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">dropdown 1</a></li>
+                    <li><a class="dropdown-item" href="#">dropdown 2</a></li>
+                    <li><a class="dropdown-item" href="#">dropdown 3
+                    </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="closeN()" href="#contact">Contact Us</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        </nav>
+        <div class="text text-center align-items-center">
+            <div class="hadding ">Welcome to Siimple</div>
+            <div class="subHadding">Please, fill out the for below to be notified for the latest updates!</div>
+            <form  action="#" class="form">
+                <div class=" row justify-content-center"> 
+                <input required type="text" placeholder="Your Name" class=" m-3 col-lg-6 col-md-6 form-control">
+                <input required type="email" placeholder="Your Email" class="m-3 col-lg-6 col-md-6 round-pill form-control">
+                </div>
+                <div class="mt-lg-2 justify-content-center"> 
+                <button  type="submit" class="bnt Notify text-light">Notify me!</button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </header>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6    img-fluid">
+                    <img src="img/about-img.jpg" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0  ">
+                    <div>
+                        <p class="h3">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</p>
+                        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <ul>
+                            <li>
+                                <i class="bx bx-check-double"></i>
+                                <p class="p">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </li>
+                            <li>
+                                <i class="bx bx-check-double"></i>
+                                <p class="p">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                            </li>
+                            <li>
+                                <i class="bx bx-check-double"></i>
+                                <p class="p">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+                            </li>
+                        </ul>
+                        <p class="p">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                            sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="WhyUs" id="why">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img/why-us-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-icon">
+                            <i class="bx bx-book-reader"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title mt-4 text-center">Our Mission</h5>
+                            <p class="card-text lead mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img/why-us-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-icon">
+                            <i class="bx bx-calendar-edit"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title mt-4 text-center">Our Plan</h5>
+                            <p class="card-text lead mt-3 mb-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img/why-us-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-icon">
+                            <i class="bx bx-landscape"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title mt-4 text-center">Our Vision</h5>
+                            <p class="card-text lead mt-3 mb-3">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class="faq">
+        <div class="container">
+            <div class="title-section text-center">
+                <div class="h2">Frequenty Asked Questions</div>
+            </div>
+        <ul class="faq-list">
+
+          <li>
+            <a data-bs-toggle="collapse" class="collapsed" onclick="toggleIcon(event)" data-bs-target="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-down-arrow-alt icon-show"></i><i class="bx bx-x icon-close icon-hidden"></i></a>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+              </p>
+            </div>
+          </li>
+            <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq2" onclick="toggleIcon(event)" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="bx bx-down-arrow-alt icon-show"></i><i class="bx bx-x icon-close icon-hidden"></i></a>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq3" onclick="toggleIcon(event)" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="bx bx-down-arrow-alt icon-show"></i><i class="bx bx-x icon-close icon-hidden" ></i></a>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq4" onclick="toggleIcon(event)" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bx bx-down-arrow-alt icon-show"></i><i class="bx bx-x icon-close icon-hidden"></i></a>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq5" onclick="toggleIcon(event)" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-down-arrow-alt icon-show"></i><i class="bx bx-x icon-close icon-hidden"></i></a>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq6" onclick="toggleIcon(event)" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-down-arrow-alt icon-show"></i><i class="bx bx-x icon-close icon-hidden"></i></a>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+              </p>
+            </div>
+          </li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact" class="Contact-us">
+        <div class="container">
+            <div class="title-section text-center">
+                <div class="h2">Contact Us</div>
+            </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-5">
+                <div class="addrees mb-3 d-flex align-items-center">
+                    <i class="bx bx-map"></i>
+                    <p>A108 Adam Street New York, NY 535022</p>
+                </div>
+                <div class="email mb-3 d-flex align-items-center">
+                    <i class="bx bx-envelope"></i>
+                    <p>info@example.com</p>
+                </div>
+                <div class="phone mb-3 d-flex align-items-center">
+                    <i class="bx bx-phone-call"></i>
+                    <p>+1 5589 55488 55s</p>
+                </div>
+                <div class="social mt-3   d-flex align-items-center">
+                        <a href="" class="twitter"><i class="bx bxl-twitter"></i></a>
+                        <a href="" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="" class="instgram"><i class="bx bxl-instagram"></i></a>
+                        <a href="" class="linked-in"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            
+        </div>
+        <div class="col-lg-5 col-md-7">
+            <form action="">
+                <input required type="text" class="form-control mb-4" placeholder="Your Name">
+                <input required type="email" class="form-control  mb-4" placeholder="Your Email">
+                <input required type="text" class="form-control mb-4" placeholder="Subject">
+                <textarea name="" id="" cols="30" rows="5" placeholder="Massage" class=" mb-4"></textarea>
+                <button type="submit" class="btn">Send Massage</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    </section>
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="copyright">
+                <p class="text-light"><Span class="text-light me-1">© Copyright</Span><strong class="text-light me-1">Siimple.</strong>All Rights Reserved</p>
+            </div>
+            <div class="credits text-light me-1">
+                Designed by <a href="https://github.com/Muhammed-Safwat"> Muhammed Safwat</a>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
